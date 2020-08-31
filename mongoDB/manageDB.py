@@ -14,9 +14,13 @@ def addDriver(name, date_of_birth, phone, mopar_car, date_of_production, license
             {
                 'type': mopar_car,
                 'date_of_production': date_of_production,
-                'licence_plate': license_plate
+                'licence_plate': license_plate,
+                'image1': img[0],
+                'image2': img[1],
+                'region_of_use': regOfUse
             },
-        ]
+        ],
+        'owner': name
     }
     # Step 3: Insert USA_Parts_SHOP object directly into MongoDB via isnert_one
     db.drivers.insert_one(driver)
