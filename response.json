@@ -1,0 +1,20 @@
+{
+  "message_id": 23,
+  "from": {
+    "id": 162323677,
+    "is_bot": false,
+    "first_name": "Alexander",
+    "last_name": "Bagdasarov",
+    "username": "alcobeard",
+    "language_code": "ru"
+  },
+  "chat": {
+    "id": 162323677,
+    "first_name": "Alexander",
+    "last_name": "Bagdasarov",
+    "username": "alcobeard",
+    "type": "private"
+  },
+  "date": 1599304929,
+  "text": "ping"
+}
